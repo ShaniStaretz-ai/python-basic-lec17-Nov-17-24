@@ -30,4 +30,6 @@ dictionary functions
 ## extra subjects:
  * max function can receive a dictionary and a lambda function. 
  * the function enumerate() is a usage of the term unpacking , on list
+ * more about fromkeys from docs.python.org:
+   > fromkeys() is a class method that returns a new dictionary. value defaults to None. All of the values refer to just a single instance, so it generally doesn’t make sense for value to be a mutable object such as an empty list. To get distinct values, use a dict comprehension instead.
 
