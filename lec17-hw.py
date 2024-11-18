@@ -39,6 +39,6 @@ def lengthOfLastWord(s: str = "") -> int:
     return len(s_list_last[len(s_list_last) - 1])
 
 
-print(lengthOfLastWord("Hello World"))
-print(lengthOfLastWord("luffy is still joyboy"))
-print(lengthOfLastWord("luffy is still joyboy"))
+print("length Of Last Word of 'Hello World'",lengthOfLastWord("Hello World"))
+print("length Of Last Word of '   fly me   to   the moon  ':",lengthOfLastWord("   fly me   to   the moon  "))
+print("length Of Last Word of 'luffy is still joyboy':",lengthOfLastWord("luffy is still joyboy"))
